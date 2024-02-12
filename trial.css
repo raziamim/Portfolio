@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	'font-family: initial;'
+}
+header{
+	width: 100%;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5%;
+	background-image: linear-gradient(#000000, black);
+	opacity: 86%;
+
+}
+.logo{
+	font-size: 15px;
+	font-weight: bold;
+	color: #eae0c8 ;
+	letter-spacing: 0.01px;
+	cursor: progress;
+	text-transform: uppercase;
+}
+.side li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px;
+
+}
+.side a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	cursor: pointer;
+}
+.side  a:hover{
+	color: #85754e ;
+	transition: all 0.4s ease 0s;
+}
+.logo p:hover{
+	background-color: black;
+	color: white ;
+
+}
+.texts h1{
+	text-align: center;
+	margin: 70px;
+	
+
+}
+.texts p{
+	text-align: center;
+	font-family: 'georgia';
+	font-size: 18px;
+	direction: rtl;
+
+
+
+
+}
+.center {display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+.ex h2{
+	margin: 90px;
+	transform: translateY(90px);
+
+}
+
+.ex h3{
+    position: relative;
+    top: 10px;
+    left: 77px;
+	color: #a6a6a6;
+
+}
+.Contact li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px;
+}
+.Contact a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	color: black;
+	cursor: pointer;
+	margin: 260px;
+	font-weight: bold;
+
+}
+.Contact a:hover{
+	color: #85754e ;
+	transition: all 0.4s ease 0s;
+}
+.contacts li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px
+}
+.contacts a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	cursor: pointer;
+	margin: 260px;
+	font-weight: bold;
+	position: relative;
+	top: -18px;
+	left: 126px;
+}
+.contacts a:hover{
+	color: #85754e ;
+	transition: all 0.4s ease 0s
+
+}
+
